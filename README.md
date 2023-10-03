@@ -1,4 +1,4 @@
-Grade Calculator Read Me
+GRADE CALCULATOR READ ME.
 This is a simple JavaScript program that calculates the grade for a student based on their mark. The program takes a numeric input from the user (a student's mark), validates it, and then uses a grading system to determine the corresponding grade. Here's a brief explanation of the functions in this program:
 
 getUserInput()
@@ -55,3 +55,40 @@ It will then determine if the speed is within the speed limit or if there is exc
 Based on the outcome, it will display an appropriate alert message.
 
 You can customize and integrate this code into your project or application for tracking and managing speed limit violations and license suspension points. Please note that this code is a basic example and can be extended and enhanced to suit your specific requirements.
+Net Salary Calculator Readme
+This JavaScript function, calculateNetSalary(), is designed to calculate the net salary of an employee based on their basic salary and benefits while considering deductions for PAYE, NHIF, and NSSF. Below is an explanation of how this function works:
+
+calculateNetSalary()
+It retrieves the values of the basic salary and benefits from HTML input elements with the IDs 'basicSalary' and 'benefits', respectively.
+
+It calculates the PAYE (Pay As You Earn) deduction as 10% of the basic salary.
+
+It sets a fixed value for NHIF (National Hospital Insurance Fund) deductions, which is 150 in this case.
+
+It calculates the NSSF (National Social Security Fund) deduction as the lesser of 6% of the basic salary or 6000 (the maximum NSSF contribution allowed by law).
+
+It calculates the gross salary as the sum of the basic salary and benefits.
+
+It calculates the net salary by subtracting PAYE, NHIF, and NSSF deductions from the gross salary.
+
+Finally, it displays the results in an HTML element with the ID 'results'.
+
+How to Use
+Include the provided JavaScript code in your HTML file.
+
+Create input fields in your HTML with IDs 'basicSalary' and 'benefits' for users to enter the basic salary and benefits.
+
+html
+Copy code
+<input type="text" id="basicSalary" placeholder="Enter Basic Salary">
+<input type="text" id="benefits" placeholder="Enter Benefits">
+Create an HTML element with the ID 'results' where the results will be displayed.
+html
+Copy code
+<div id="results"></div>
+To use the calculateNetSalary() function, call it in response to a user action, such as clicking a button.
+html
+Copy code
+<button onclick="calculateNetSalary()">Calculate Net Salary</button>
+When the user enters the basic salary and benefits and clicks the button, the function will calculate the net salary and display it in the results element.
+You can customize and integrate this code into your HR or payroll management system to help calculate and display net salaries for employees. Please note that this code is a basic example and can be extended and enhanced to suit your specific payroll calculation needs.
