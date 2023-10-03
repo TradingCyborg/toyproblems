@@ -22,8 +22,8 @@ Copy code
 getUserInput();
 The program will display the grade in an alert message.
 
-Speed Limit Calculator Readme
-This JavaScript function, calculateSpeed(), is designed to help you calculate whether a driver is within the speed limit and, if not, determine the level of excess speed. It also checks if the driver's license should be suspended based on the speed limit violations. Below is an explanation of how this function works:
+SPEED LIMIT CALCULATOR
+This JavaScript function, calculatespeed(), is designed to help you calculate whether a driver is within the speed limit and, if not, determine the level of excess speed. It also checks if the driver's license should be suspended based on the speed limit violations. Below is an explanation of how this function works:
 
 calculateSpeed()
 This function prompts the user to enter a vehicle's speed and then performs the following checks:
@@ -91,4 +91,12 @@ html
 Copy code
 <button onclick="calculateNetSalary()">Calculate Net Salary</button>
 When the user enters the basic salary and benefits and clicks the button, the function will calculate the net salary and display it in the results element.
-You can customize and integrate this code into your HR or payroll management system to help calculate and display net salaries for employees. Please note that this code is a basic example and can be extended and enhanced to suit your specific payroll calculation needs.
+AUTHOR.
+DANIEL KINYUA WACHIRA. 
+LICENSE. 
+MORINGA SCHOOL,NGONG,NAIROBI.
+
+
+
+
+can be extended and enhanced to suit your specific payroll calculation needs.
